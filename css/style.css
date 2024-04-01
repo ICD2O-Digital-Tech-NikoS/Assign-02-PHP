@@ -1,4 +1,61 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: Niko
+ * Created on: March 2022
+ * This CSS file defines the style for index.php
+ * ICS2O-Unit2-05-PHP-Salary
 */
+
+html {
+  
+}
+
+body {
+  background-color: #eebb91;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+form {
+  background-color: #81a71b;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h1 { 
+  background-color: #700f31;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h3 {
+  background-color: #ff9b29;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+iframe {
+  margin-bottom: 5%;
+  background-color: #008558;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15px;
+}
+
+#yellow {
+  background-color: #ab8e87;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+

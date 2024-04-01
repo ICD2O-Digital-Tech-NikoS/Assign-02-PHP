@@ -27,22 +27,21 @@
       <input type="submit" value="Calculate Percentage">
     </form>
 
-      <!-- iframe for the results to show on the web page. -->
-      <iframe id="results" name="results">			
-        
-      </iframe><br><br>
+      <!-- iframe for the results to show on the web page, uses target as a getElementById. -->
+    <iframe id="results" name="results">			
+
+    </iframe>
 
     <!-- form to get hours worked and wage from the user -->
-    <form action="./results2.php" method="post" target="results">
+    <form action="./results2.php" method="post" target="results2">
       <label for="testscores">Test Scores:</label>
       <input type="text" id="testscores" placeholder="Test Scores" name="testscores"><br><br>
       <input type="submit" value="Calculate Average">
     </form>
 
-      <!-- iframe for the results to show on the web page. -->
-      <iframe id="average" name="average">			
+    <iframe id="results2" name="results2">			
 
-      </iframe>
-     
+    </iframe>
+    
   </body>
 </html>
