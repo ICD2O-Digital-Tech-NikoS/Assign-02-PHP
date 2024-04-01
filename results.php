@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Grade Calculator">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Niko (original author: Ms Raffin)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Title -->
+    <title>Grade Calculator</title>
+  </head>
+</html>
+
 <?php
   // get the wage and hous from the textfields
   $testmark = $_POST['testmarks'];
@@ -7,6 +23,6 @@
   $percentage = ($testmark/$testtotal)*100;
 ?>
 <h3>Results:</h3>
-Your test score as a percentage is <?php echo round($percentage) ?>%.
+<p>Your test score as a percentage is <?php echo round($percentage) ?>%.</p>
 
 

@@ -1,61 +1,104 @@
 /* Created by: Niko
- * Created on: March 2022
- * This CSS file defines the style for index.php
- * ICS2O-Unit2-05-PHP-Salary
+* Created on: march 2020
+* This file contains the CSS for index.html
 */
 
 html {
-  
+   background-color: #e3dcb5;
 }
 
 body {
-  background-color: #eebb91;
+  font-size: 10pt;
+  font-family: Times New Roman, Times, serif, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+  text-align: center;
+}
+
+h1 {
+  font: 30pt Times New Roman;
+  font-weight: bold;
+  line-height: 20pt;
+  color: #eac439;
+  padding: 20px;
   margin-left: 600px;
   margin-right: 600px;
+  background-color: hsl(0, 4%, 20%);
 }
 
-form {
-  background-color: #81a71b;
-  padding: 20px;
-  width: 80%;
-  margin-left: 10%;
-}
-
-h1 { 
-  background-color: #700f31;
+#h3other {
+  background-color: #9d825c;
+  border-radius: 7px;
+  margin-left: 620px;
+  margin-right: 620px;
   text-align: center;
-  padding: 20px;
-  width: 80%;
-  margin-left: 10%;
+  padding: 0.5px;
+  font: 16pt; 
+  font-family: Times New Roman, Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 10pt;
+  color: #000000;
 }
 
-h3 {
-  background-color: #ff9b29;
+label {
+  font-size: 13pt;
+  font-family: Times New Roman, Times, serif;
+}
+
+.text-box {
+  border-width: 5px;
+  border-radius: 7px;
+  border-color: lightgray;
+  width: 80px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12pt;
+  margin: 0.05in;
+}
+
+.button {
+  width: = 340px;
+  height: 40px;
+  margin: 0.1in;
+  border-radius: 7px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13pt;
+}
+
+.box {
+  background-color: #9d825c;
+  padding: 9.5px;
+  border-radius: 7px;
+  margin-left: 620px;
+  margin-right: 620px;
   text-align: center;
-  padding: 20px;
-  width: 80%;
-  margin-left: 10%;
-}
-
-p {
-  width: 80%;
-  margin-left: 10%;
 }
 
 iframe {
-  margin-bottom: 5%;
-  background-color: #008558;
-  padding: 20px;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 15px;
+  background-color: #e2eacc;
+  padding: 9px;
+  border-radius: 7px;
+  margin-left: 620px;
+  margin-right: 620px;
+  width: 630px;
+  height: 50px;
 }
 
-#yellow {
-  background-color: #ab8e87;
-  padding: 20px;
-  width: 80%;
-  margin-left: 10%;
-  margin-bottom: 30px;
+p {
+   color: rgb(94,12,105);
+  text-align: center;
+  font-family: Times New Roman, Times, serif;
+  font-size: 14pt;
+  font-weight: 1000;
 }
 
+#testscores {
+  border-width: 5px;
+  border-radius: 7px;
+  border-color: lightgray;
+  width: 600px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12pt;
+}

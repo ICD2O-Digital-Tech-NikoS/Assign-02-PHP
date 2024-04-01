@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Grade Calculator">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Niko (original author: Ms Raffin)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Title -->
+    <title>Grade Calculator</title>
+  </head>
+</html>
+
+
 <?php
 
   function calculate_average_backend($some_string) {
@@ -32,4 +49,4 @@ function calculate_average() {
 ?>
 
 <h2>Result:</h2>
-<?php echo "Your test average is " . round(calculate_average()) . "%.";?>
+<p>Your test average is <?php echo round(calculate_average()) ?> %.</p>
