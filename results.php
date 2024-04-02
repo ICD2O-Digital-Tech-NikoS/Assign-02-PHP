@@ -15,11 +15,11 @@
 </html>
 
 <?php
-  // get the wage and hous from the textfields
+  // get the test marks and test total from the textfields
   $testmark = $_POST['testmarks'];
   $testtotal = $_POST['testtotal'];
 
-  // calculate pay 
+  // calculate percentage version of the test score
   $percentage = ($testmark/$testtotal)*100;
 ?>
 <h3>Results:</h3>

@@ -28,7 +28,7 @@
       ?>
     </div>
     <br>
-    <!-- form to get hours worked and wage from the user -->
+    <!-- form to get test marks and test total from the user -->
     <form action="./results.php" method="post" target="results" class="box">
       <label for="testmarks">Enter Your Test Score and what it was out of:</label>
       <input type="text" id="testmarks" placeholder="Test Mark" name="testmarks" class="text-box">
@@ -42,19 +42,22 @@
 
     </iframe>
 
-    <!-- form to get hours worked and wage from the user -->
+    <!-- form to get multiple test scores from the user -->
     <form action="./results2.php" method="post" target="results2" class="box">
       <label for="testscores">Enter Your Test Scores:</label>
       <input type="text" id="testscores" placeholder="Test Scores" name="testscores">
       <input type="submit" value="Calculate Average" class="button">
     </form>
-
+    
+    <!-- iframe to diplay results targeted by second form -->
     <iframe id="results2" name="results2">			
 
     </iframe>
+    <!-- mdl slider -->
     <input class="mdl-slider mdl-js-slider" type="range"
       min="0" max="100" value="25" tabindex="0">
     <br>
+    <!-- john cena stretch face image -->
     <img src="./images/john.gif" alt="john man small face" height="300px" width="1200px">
   </body>
 </html>
