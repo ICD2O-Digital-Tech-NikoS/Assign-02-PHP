@@ -12,12 +12,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png" />
     <link rel="manifest" href="./fav_index/site.webmanifest" />
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Title -->
     <title>Grade Calculator</title>
   </head>
   <body>
+    <!-- mdl script file -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
       <!-- php echo to print the html to the page -->
     <?php  
       echo "<h1>Grade Calculator</h1>";
