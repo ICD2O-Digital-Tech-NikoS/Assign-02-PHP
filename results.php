@@ -23,6 +23,6 @@
   $percentage = ($testmark/$testtotal)*100;
 ?>
 <h3>Results:</h3>
-<p>Your test score as a percentage is <?php echo round($percentage) ?>%.</p>
+<p>Your test score as a percentage is <?php echo round($percentage,2) ?>%.</p>
 
 

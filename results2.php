@@ -49,4 +49,4 @@ function calculate_average() {
 ?>
 
 <h2>Result:</h2>
-<p>Your test average is <?php echo round(calculate_average()) ?> %.</p>
+<p>Your test average is <?php echo round(calculate_average(),2) ?> %.</p>

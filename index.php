@@ -31,9 +31,9 @@
     <!-- form to get test marks and test total from the user -->
     <form action="./results.php" method="post" target="results" class="box">
       <label for="testmarks">Enter Your Test Score and what it was out of:</label>
-      <input type="text" id="testmarks" placeholder="Test Mark" name="testmarks" class="text-box">
+      <input type="text" id="testmarks" step=".001" placeholder="Test Mark" name="testmarks" class="text-box">
       <label for="testtotal">/</label>
-      <input type="text" id="testtotal" placeholder="Test Total" name="testtotal" class="text-box">
+      <input type="text" id="testtotal" step=".001" placeholder="Test Total" name="testtotal" class="text-box">
       <input type="submit" value="Calculate Percentage" class="button">
     </form>
 
@@ -45,7 +45,7 @@
     <!-- form to get multiple test scores from the user -->
     <form action="./results2.php" method="post" target="results2" class="box">
       <label for="testscores">Enter Your Test Scores:</label>
-      <input type="text" id="testscores" placeholder="Test Scores" name="testscores">
+      <input type="text" id="testscores" step=".001" placeholder="Test Scores" name="testscores">
       <input type="submit" value="Calculate Average" class="button">
     </form>
     
